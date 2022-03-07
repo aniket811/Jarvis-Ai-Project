@@ -85,5 +85,6 @@ if __name__ =="__main__":
             speak(f"playing {query} on youtube")
         elif 'on google' or 'search' in query:
             pywhatkit.search(query)
-     
+        elif 'quit' in query:
+            exit()
         
